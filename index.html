@@ -34,9 +34,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Register</a>
-                </li> -->
               </ul>
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -201,50 +198,109 @@
 
 
           <div class="course-button py-4">
-            <a href="#" class="btn btn-primary">See More Courses</a>
+            <a href="#" class="btn btn-dark course-button1">See More Courses</a>
           </div>
         </div>
       </section>
       <!-- populer course end  -->
-      <div class="container bg-primary d-flex flex-column flex-lg-row justify-content-center align-items-center justify-content-lg-between align-items-lg-center py-4">
-        <div class="container text-center text-lg-start flex-grow-1">
-          <h1 class="text-white">
-            Ready to join?
-          </h1>
-          <p class="text-white">
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-          </p>
-        </div>
-        <div class="mx-5">
-          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-          <!-- Button trigger modal -->
-          <button type="button" class="btn text-primary bg-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <span>Register Now</span>
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
+      <!-- modal register now start  -->
+      <div class="container">
+        <div class="rounded-2 bg-white d-flex flex-column flex-lg-row justify-content-center align-items-center justify-content-lg-between align-items-lg-center py-4">
+          <div class="container text-center text-lg-start flex-grow-1">
+            <h1 class="text-dark">
+              Ready to join?
+            </h1>
+            <p class="text-dark">
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="mx-5">
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn text-white bg-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <span>Register Now</span>
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
                 </div>
               </div>
             </div>
+  
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
           </div>
-
-          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  
         </div>
-
       </div>
+      <!-- modal register now end  -->
+
+      <!-- frequently ask question start  -->
+      <div class="container my-5">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What are difference between grid and flex box
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Grid and flexbox:</strong> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What are difference between bootstrap and tailwind?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Developers describe Bootstrap as "Simple and flexible HTML, CSS, and JS for popular UI components and interactions". Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as "A utility-first CSS framework for rapid UI development". Tailwind is different from frameworks like Bootstrap, Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and there are no build-in UI components. It comes with a menu of predesigned widgets to build your site with, but doesn't impose design decisions that are difficult to undo.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is the CSS Box Model?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                WHat is a semantic tag?
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Semantic HTML tags allow you to add meaning to your markup so that search engines, screen readers, and web browsers can make sense of it. By default, when a user agent reads your content it does not understand the context and meaning. Semantic HTML tags let you serve structured content to your users, which is especially important for on-page SEO and accessibility.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- frequently ask question end  -->
 
 
 

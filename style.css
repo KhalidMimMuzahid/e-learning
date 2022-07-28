@@ -11,4 +11,7 @@
     p.over-ride{
         font-size: 15px !important;
     }
-  }
+}
+.course-button1{
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.7) !important;
+}
